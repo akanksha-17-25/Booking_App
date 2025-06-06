@@ -8,9 +8,7 @@
 - ran migration
 - populated admin.py and created super user, 'python manage.py createsuperuser'
 - created serializer 
-- created serializer for FK
 - created serializerMethodField
-- created query for future slots
 
 # Technical edge cases handled
 - Race-condition in bookings endpoint, by using translational update
